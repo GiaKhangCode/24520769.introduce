@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Giới Thiệu Bản Thân</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#about_me">Giới thiệu bản thân</a>
+      <a href="#send_info">Gửi thông tin và giao lưu cùng tôi</a>
+    </nav>
+
+    <div class="about_me" id="about_me">
+      <div class="introduce_title">
+        <h1>Giới thiệu bản thân</h1>
+      </div>
+
+      <div class="avatar">
+        <img
+          src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/01/meme-la-gi-4.jpg"
+          alt="Đây là hình ảnh"
+          height="120"
+          width="120"
+        />
+      </div>
+
+      <h2>Thông tin cơ bản</h2>
+      <ul>
+        <li>Tên: Trần Huỳnh Gia Khang</li>
+        <li>Năm sinh: 2006</li>
+        <li>Chuyên ngành: Hệ thống thông tin</li>
+      </ul>
+      <h2>Sở thích</h2>
+      <h3>Món ăn</h3>
+      <ol type="1">
+        <li>Mì cay 7 cấp độ nhưng ăn cấp 0</li>
+        <li>Trái cây nhiệt đới ăn ở Canada</li>
+        <li>Bánh bò</li>
+      </ol>
+      <h3>Giải trí</h3>
+      <h4>Trò chơi</h4>
+      <ul>
+        <li>Cầu lông</li>
+        <li>Liên quân Mobile</li>
+      </ul>
+      <h4>Bài nhạc yêu thích</h4>
+      <ul>
+        <li>Thiên lý ơi - J97</li>
+        <li>Đom đóm - J97</li>
+        <li>Hoa hải đường - J97</li>
+        <li>Sóng gió - J97</li>
+        <li>Bạc phận - J97</li>
+        <li>Hồng nhan - J97</li>
+      </ul>
+      <h2>Mục tiêu của bản thân</h2>
+
+      <table>
+        <tr>
+          <th>Mục tiêu</th>
+          <th>Thời hạn</th>
+          <th>Hoàn thành</th>
+        </tr>
+        <tr>
+          <td>Thi xong chứng chỉ tiếng anh</td>
+          <td>31/12/2026</td>
+          <td><input type="checkbox" /></td>
+        </tr>
+        <tr>
+          <td>Có job thực tập AI Engineer</td>
+          <td>31/07/2027</td>
+          <td><input type="checkbox" /></td>
+        </tr>
+        <tr>
+          <td>Có học bổng KKHT</td>
+          <td>15/01/2027</td>
+          <td><input type="checkbox" /></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="send_info" id="send_info">
+      <div class="send_info_title">
+        <h1>Gửi thông tin và giao lưu cùng tôi</h1>
+      </div>
+
+      <form>
+        <label for="fullname">
+          Họ và tên:
+          <input type="text" name="fullname" />
+        </label>
+        <br />
+        <br />
+        <label for="email">
+          Email:
+          <input type="email" name="email" />
+        </label>
+        <br /><br />
+        <label for="message">
+          Tin nhắn:
+          <br />
+          <textarea name="message" id="message"></textarea>
+        </label>
+        <br />
+        <p>Giới tính:</p>
+        <label for="gender">
+          <input type="radio" name="gender" />
+          Nam
+        </label>
+        <label for="gender">
+          <input type="radio" name="gender" />
+          Nữ
+        </label>
+
+        <p>Sở thích:</p>
+        <label for="listen_to_music">
+          <input type="checkbox" name="listen_to_music" />
+          Nghe nhạc
+        </label>
+
+        <label for="swim">
+          <input type="checkbox" name="swim" />
+          Bơi lội
+        </label>
+
+        <label for="football">
+          <input type="checkbox" name="football" />
+          Đá bóng
+        </label>
+
+        <br /><br />
+
+        <label for="study_field">
+          Ngành
+          <select name="study_field" id="study_field">
+            <option value="Khoa học Máy tính">Khoa học Máy tính</option>
+            <option value="Trí tuệ Nhân tạo">Trí tuệ Nhân tạo</option>
+            <option value="Hệ thống Thông tin">Hệ thống Thông tin</option>
+            <option value="Thương mại Điện tử">Thương mại Điện tử</option>
+            <option value="Thiết kế Vi mạch">Thiết kế Vi mạch</option>
+            <option value="Kỹ thuật Máy tính">Kỹ thuật Máy tính</option>
+            <option value="Kỹ thuật Phần mềm">Kỹ thuật Phần mềm</option>
+            <option value="Công nghệ Thông tin">Công nghệ Thông tin</option>
+          </select>
+        </label>
+        <br /><br />
+        <button type="submit">Gửi</button>
+      </form>
+    </div>
+
+    <footer>
+      <p>@2026 24520769 Trần Huỳnh Gia Khang</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+h1,
+h2,
+h3,
+h4 {
+  font-size: 24px;
+  -webkit-text-stroke: 1px black;
+}
+
+h1 {
+  color: #caedff;
+}
+
+h2 {
+  color: #d8b4f8;
+}
+
+h3 {
+  color: #ffc7ea;
+}
+
+.avatar {
+  text-align: center;
+}
+
+.introduce_title {
+  background-color: #f3fde8;
+}
+
+.send_info_title {
+  background-image: url("https://file.hstatic.net/200000722513/file/mau-background-dep-82_9a43f9e72f064caca6a1e2bdc58687a5_1024x1024.jpg");
+  background-repeat: repeat;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+}
+
+nav,
+footer {
+  background-color: #d4f2f4;
+  color: #0b0848;
+}
+
+textarea {
+  width: 200px;
+  height: 100px;
+}
